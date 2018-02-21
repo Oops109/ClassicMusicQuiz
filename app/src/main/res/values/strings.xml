@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">classic Music Quiz</string>
+    <string name="question_1">Who has written the symphony used for the E.U. anthem ?</string>
+    <string name="question_1_answer_1" translatable="false">Mozart</string>
+    <string name="question_1_answer_2" translatable="false">Schubert</string>
+    <string name="question_1_answer_3" translatable="false">Beethoven</string>
+    <string name="question_1_answer_4" translatable="false">Verdi</string>
+    <string name="question_2">Who drawn is inspiration from American Indian during is journey in 1893 ?</string>
+    <string name="question_2_answer_1" translatable="false">Bartok</string>
+    <string name="question_2_answer_2" translatable="false">Dvorak</string>
+    <string name="question_2_answer_3" translatable="false">Gershwin</string>
+    <string name="question_2_answer_4" translatable="false">Bernstein</string>
+    <string name="question_3">Who was the first compositor
+            as successful and worship as a Rock Star ?</string>
+    <string name="question_3_answer_1" translatable="false">Puccini</string>
+    <string name="question_3_answer_2" translatable="false">Beethoven</string>
+    <string name="question_3_answer_3" translatable="false">Rossini</string>
+    <string name="question_3_answer_4" translatable="false">Mozart</string>
+    <string name="question_4">Who wrote the largest number of Musical plays ?</string>
+    <string name="question_4_answer_1" translatable="false">Mozart</string>
+    <string name="question_4_answer_2" translatable="false">Bach</string>
+    <string name="question_4_answer_3" translatable="false">Schubert</string>
+    <string name="question_4_answer_4" translatable="false">Telemann</string>
+    <string name="question_5">Which one loves going fishing for trout ?</string>
+    <string name="question_5_answer_1" translatable="false">Strauss</string>
+    <string name="question_5_answer_2" translatable="false">Liszt</string>
+    <string name="question_5_answer_3" translatable="false">Schubert</string>
+    <string name="question_5_answer_4" translatable="false">Bach</string>
+    <string name="question_6">How many brothers and sisters Johan Sebastian Bach had ?</string>
+    <string name="question_6_answer_1" translatable="false">3</string>
+    <string name="question_6_answer_2" translatable="false">5</string>
+    <string name="question_6_answer_3" translatable="false">7</string>
+    <string name="question_6_answer_4" translatable="false">9</string>
+    <string name="question_7">Which of this compositor are german ?</string>
+    <string name="question_7_answer_1" translatable="false">Bach</string>
+    <string name="question_7_answer_2" translatable="false">Mozart</string>
+    <string name="question_7_answer_3" translatable="false">Beethoven</string>
+    <string name="question_7_answer_4" translatable="false">Strauss</string>
+    <string name="score_message_1">Good job! you have made</string>
+    <string name="score_message_2">Sorry you have only made</string>
+    <string name="score_message_3">questions</string>
+    <string name="correct_answers">correct answers</string>
+    <string name="total_question">out of a total of</string>
+    <string name="question_not_answered">You missed</string>
+    <string name="perfect_score">Congratulations! You answer all correctly</string>
+
+    <string name="submit_button_text">Submit</string>
+    <string name="viewAnswers_button_text">View Answers</string>
+    <string name="start_button_text">Start</string>
+    <string name="results">See Answers</string>
+    <string name="userGreetings">Hello</string>
+
+    <string name="no_input_name">Please enter your name</string>
+    <string name="name">Name</string>
+    <string name="welcome_message">Are you an expert in Classical Music?</string>
+</resources>

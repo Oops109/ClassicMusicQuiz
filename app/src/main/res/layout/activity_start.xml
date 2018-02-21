@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/music_classic"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/padding_left"
+        android:paddingRight="@dimen/padding_right"
+        android:paddingTop="@dimen/padding_top">
+
+        <TextView style="@style/welcomeMessageTextView"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:text="@string/welcome_message"
+            android:textSize="@dimen/text_size_large"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"/>
+
+
+        <EditText
+            android:id="@+id/user_name_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/start_activity_edit_text_margin_top"
+            android:hint="@string/name"
+            android:inputType="textCapWords" />
+
+        <Button
+            android:id="@+id/start_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/start_activity_start_button_margin_top"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/start_button_text"
+            android:textColor="@color/colorButtonNormalText"
+            android:background="@color/colorButtonNormal"/>
+
+    </LinearLayout>

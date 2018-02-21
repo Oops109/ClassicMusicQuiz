@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiz de musique Classique</string>
+    <string name="question_1">Qui a écrit la symphonie utilisée pour l\'hymne européen ?</string>
+    <string name="question_2">Qui s\'est inspiré des Amérindiens lors de son voyage en 1893 ?</string>
+    <string name="question_3">Qui a été le premier a avoir été aussi célébre qu\'une Rock Star ?</string>
+    <string name="question_4">Qui a été le compositeur a avoir écrit le plus d\'oeuvre ?</string>
+    <string name="question_5">Quel compositeur aimait aller à la pèche à la truite ?</string>
+    <string name="question_6">Combien Jean-Sebastien Bach a-t\'il eu de frères et soeurs?</string>
+    <string name="question_7">Lequel de ces compositeurs est allemand ?</string>
+    <string name="score_message_1">Joli travail! Tu as donné</string>
+    <string name="score_message_2">Désolé, tu as donné seulement</string>
+    <string name="correct_answers">bonnes réponses</string>
+    <string name="score_message_3">questions</string>
+    <string name="total_question">sur un total de</string>
+    <string name="question_not_answered">Tu as oublié de répondre à</string>
+    <string name="perfect_score">Bravo! Tu as fait un sans faute</string>
+    <string name="submit_button_text">Envoyer</string>
+    <string name="viewAnswers_button_text">Voir les réponses</string>
+    <string name="start_button_text">Démarrer</string>
+    <string name="userGreetings">Salut</string>
+    <string name="alertDialog">Quiz de Musique Classique</string>
+    <string name="no_input_name">Merci de saisir de nom</string>
+    <string name="name">Nom</string>
+    <string name="welcome_message">Es-tu un expert en musique classique?</string>
+</resources>
