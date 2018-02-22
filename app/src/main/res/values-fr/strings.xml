@@ -8,6 +8,8 @@
     <string name="question_5">Quel compositeur aimait aller à la pèche à la truite ?</string>
     <string name="question_6">Combien Jean-Sebastien Bach a-t\'il eu de frères et soeurs?</string>
     <string name="question_7">Lequel de ces compositeurs est allemand ?</string>
+    <string name="question_8">Quel est le 2ème prénom de Mozart ?</string>
+    <string name="question_8_answer_edit">ta réponse ici</string>
     <string name="score_message_1">Joli travail! Tu as donné</string>
     <string name="score_message_2">Désolé, tu as donné seulement</string>
     <string name="correct_answers">bonnes réponses</string>

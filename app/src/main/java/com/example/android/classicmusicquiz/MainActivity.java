@@ -7,6 +7,7 @@ import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
@@ -18,7 +19,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    final int totalQuestions = 7;
+    final int totalQuestions = 8;
 
     Button submitButton;
     Button viewAnswersButton;
@@ -32,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
     CheckBox questionSevenCorrectCheckBox3;
     CheckBox questionSevenCheckBox4;
 
+    EditText questionEightAnswerField;
 
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
@@ -60,6 +62,9 @@ public class MainActivity extends AppCompatActivity {
         questionSevenCheckBox2 = (CheckBox) findViewById(R.id.question_7_answer_2);
         questionSevenCorrectCheckBox3 = (CheckBox) findViewById(R.id.question_7_answer_3_correct);
         questionSevenCheckBox4 = (CheckBox) findViewById(R.id.question_7_answer_4);
+
+        questionEightAnswerField=(EditText)  findViewById(R.id.question_8_answer);
+
 
         Intent userNameIntent = getIntent();
         final String userName = userNameIntent.getStringExtra("userName");
@@ -100,6 +105,7 @@ public class MainActivity extends AppCompatActivity {
         boolean questionSevenAnswer2 = questionSevenCheckBox2.isChecked();
         boolean questionSevenCorrectAnswer3 = questionSevenCorrectCheckBox3.isChecked();
         boolean questionSevenAnswer4 = questionSevenCheckBox4.isChecked();
+        String questionEightAnswer = questionEightAnswerField.getText().toString();
 
         if (questionOneAnswers.getCheckedRadioButtonId() == -1) {
             questionsNotChecked += 1;
@@ -159,10 +165,17 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         } else {
-            if (questionSevenCorrectAnswer1) {
-                if (questionSevenCorrectAnswer3) {
-                    correctAnswers += 1;
-                }
+            if (questionSevenCorrectAnswer1 && questionSevenCorrectAnswer3 && !questionSevenAnswer2 &&!questionSevenAnswer4)  {
+                correctAnswers += 1;
+
+            }
+        }
+
+        if (questionEightAnswer.isEmpty()) {
+            questionsNotChecked += 1;
+        } else {
+            if (questionEightAnswer.equals(getString(R.string.question_8_answer_1))) {
+                correctAnswers += 1;
             }
         }
 
@@ -201,6 +214,7 @@ public class MainActivity extends AppCompatActivity {
      * This method changes the text color of correct answers.
      */
     public void highlightCorrectAnswers() {
+        questionEightAnswerField.setText(R.string.question_8_answer_1);
         questionOneCorrectAnswer.setTextColor(getResources().getColor(R.color.correctAnswers));
         questionTwoCorrectAnswer.setTextColor(getResources().getColor(R.color.correctAnswers));
         questionThreeCorrectAnswer.setTextColor(getResources().getColor(R.color.correctAnswers));
@@ -209,5 +223,6 @@ public class MainActivity extends AppCompatActivity {
         questionSixCorrectAnswer.setTextColor(getResources().getColor(R.color.correctAnswers));
         questionSevenCorrectCheckBox1.setTextColor(getResources().getColor(R.color.correctAnswers));
         questionSevenCorrectCheckBox3.setTextColor(getResources().getColor(R.color.correctAnswers));
+        questionEightAnswerField.setTextColor(getResources().getColor(R.color.correctAnswers));
     }
 }

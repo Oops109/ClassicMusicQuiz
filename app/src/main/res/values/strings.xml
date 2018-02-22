@@ -36,6 +36,9 @@
     <string name="question_7_answer_2" translatable="false">Mozart</string>
     <string name="question_7_answer_3" translatable="false">Beethoven</string>
     <string name="question_7_answer_4" translatable="false">Strauss</string>
+    <string name="question_8">What is the midle name of Mozart ?</string>
+    <string name="question_8_answer_edit">Your answer here</string>
+    <string name="question_8_answer_1" translatable="false">Chrysostomus</string>
     <string name="score_message_1">Good job! you have made</string>
     <string name="score_message_2">Sorry you have only made</string>
     <string name="score_message_3">questions</string>
